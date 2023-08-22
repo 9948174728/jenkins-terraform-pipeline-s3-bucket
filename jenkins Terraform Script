@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ("Git Checkout") {
             steps {
-                git 'https://github.com/joshking1/jenkins-terraform-pipeline-s3-bucket.git'
+                git 'https://github.com/9948174728/Terraform-Jenkins.git'
             }
         }
         stage ("Terraform Init") {
