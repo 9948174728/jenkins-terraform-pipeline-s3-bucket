@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source  = "s3bucket/aws"
+      source  = "9948174728/aws"
       version = "~> 5.5"
     }
   }
